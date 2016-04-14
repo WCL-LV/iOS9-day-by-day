@@ -51,7 +51,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="StX-Te-0if" kind="show" id="Ueb-Lf-04u"/>
+                                            <segue destination="5L8-Fa-bkw" kind="show" id="uOZ-QY-jbu"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -63,16 +63,24 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Contacts" id="r7W-ar-jlv">
-                        <barButtonItem key="rightBarButtonItem" title="Account" id="oGR-10-jBl">
+                        <barButtonItem key="rightBarButtonItem" title="Account" id="0ja-Xd-oXQ">
                             <connections>
-                                <segue destination="K5t-co-427" kind="show" id="P0g-I8-ySx"/>
+                                <segue destination="0Vf-A9-JYG" kind="show" id="8XU-ql-gvR"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ley-4T-WSv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3171" y="355"/>
+            <point key="canvasLocation" x="-3171" y="409"/>
+        </scene>
+        <!--accountViewController-->
+        <scene sceneID="2tU-my-BtF">
+            <objects>
+                <viewControllerPlaceholder storyboardName="More" referencedIdentifier="accountViewController" id="0Vf-A9-JYG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SzR-K3-P0k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2651.5" y="283"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5Cy-gj-Uqn">
@@ -92,21 +100,13 @@
             </objects>
             <point key="canvasLocation" x="-3171" y="-345"/>
         </scene>
-        <!--accountViewController-->
-        <scene sceneID="ape-bV-bjS">
-            <objects>
-                <viewControllerPlaceholder storyboardName="More" referencedIdentifier="accountViewController" id="K5t-co-427" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="R61-rt-Aou" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2674.5" y="102"/>
-        </scene>
         <!--ContactDetail-->
-        <scene sceneID="oZJ-aD-a1u">
+        <scene sceneID="CSe-jd-6uY">
             <objects>
-                <viewControllerPlaceholder storyboardName="ContactDetail" id="StX-Te-0if" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FrZ-GF-N0w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="ContactDetail" id="5L8-Fa-bkw" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ng5-Mr-hfo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2701" y="355"/>
+            <point key="canvasLocation" x="-2822" y="1209"/>
         </scene>
     </scenes>
     <resources>
